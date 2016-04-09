@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Journey of the Web Develop
-subtitle:
-description:
+title: 嚴之有物
+subtitle: console.log('Show me the Code');
+description: Anything about my web development journey.
 author: Wico Wen
 language: en
 timezone: Asia/Taipei
