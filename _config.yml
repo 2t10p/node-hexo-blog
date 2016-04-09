@@ -4,7 +4,7 @@
 
 # Site
 title: 嚴之有物
-subtitle: console.log('Show me the Code');
+subtitle: "use strict"
 description: Anything about my web development journey.
 author: Wico Wen
 language: en
