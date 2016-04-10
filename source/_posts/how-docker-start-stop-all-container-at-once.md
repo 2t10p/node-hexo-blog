@@ -1,7 +1,7 @@
 ---
 title: how docker start/stop all container at once
 date: 2016-04-10 01:06:56
-tags: [Docker]
+tags: [docker]
 ---
 
 sometime you wanna stop all docker,
