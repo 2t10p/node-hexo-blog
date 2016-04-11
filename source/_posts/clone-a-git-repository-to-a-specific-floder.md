@@ -1,5 +1,5 @@
 ---
-title: How clone a git repository to a specific floder
+title: clone a git repository to a specific floder
 date: 2016-04-10 17:50:34
 tags: [git]
 ---

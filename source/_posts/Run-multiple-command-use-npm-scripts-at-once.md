@@ -1,5 +1,5 @@
 ---
-title: Run multiple command use npm scripts at once
+title: run multiple command use npm scripts at once
 date: 2016-04-10 18:07:00
 tags: [nodejs,npm]
 ---

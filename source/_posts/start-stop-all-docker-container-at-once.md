@@ -1,10 +1,10 @@
 ---
-title: how docker start/stop all container at once
+title: start/stop all docker container at once
 date: 2016-04-10 01:06:56
 tags: [docker]
 ---
 
-sometime you wanna stop all docker,
+sometime you wanna start/stop all docker,
 you can try this command.
 
     docker start $(docker ps -aq)

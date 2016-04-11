@@ -20,6 +20,6 @@
   },
   "scripts": {
       "hexo": "/usr/bin/env node ./node_modules/hexo/bin/hexo",
-      "publish": "npm run hexo generate | npm run hexo deploy"
+      "publish": "npm run hexo clean | npm run hexo generate | npm run hexo deploy"
   }
 }
