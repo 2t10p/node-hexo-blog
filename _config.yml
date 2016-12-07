@@ -71,8 +71,13 @@ deploy:
   type: git
   repo: git@github.com:2t10p/2t10p.github.io.git
 
-# Rss
+# For RSS Data
 feed:
   type: atom
   path: atom.xml
   limit: 20
+
+# For Local Search Data
+search:
+  path: search.xml
+  field: post
