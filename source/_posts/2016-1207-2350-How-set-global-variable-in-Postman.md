@@ -1,7 +1,7 @@
 ---
 title: How set global variable in Postman
 date: 2016-12-07 23:48:47
-tags: [Postman]
+tags: [postman]
 ---
 
 when you useing postman to cook your api,
