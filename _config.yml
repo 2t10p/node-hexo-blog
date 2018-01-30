@@ -12,7 +12,7 @@ timezone: "Asia/Taipei"
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://2t10p.github.io
+url: https://wicowen.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -69,7 +69,7 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:2t10p/2t10p.github.io.git
+  repo: git@github.com:wicowen/wicowen.github.io.git
 
 # For RSS Data
 feed:
