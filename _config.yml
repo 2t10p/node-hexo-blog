@@ -4,9 +4,9 @@
 
 # Site
 title: "Wico"
-subtitle: "use strict;"
+subtitle: " "
 description: "Someone's web development journey."
-author: "Wico"
+author: "Wico Wen"
 language: "en"
 timezone: "Asia/Taipei"
 
@@ -77,7 +77,12 @@ feed:
   path: atom.xml
   limit: 20
 
+# For Sitemap Data
+sitemap:
+    path: sitemap.xml
+
 # For Local Search Data
 search:
   path: search.xml
   field: post
+
