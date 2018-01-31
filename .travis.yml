@@ -1,0 +1,26 @@
+language: node_js
+node_js:
+    - '8'
+
+sudo: false
+
+install:
+
+before_script:
+
+script:
+
+after_script:
+
+branches:
+  only:
+    - master
+
+notifications:
+  email:
+    recipients:
+      - wico0628@gmail.com
+    on_success: change
+    on_failure: always
+
+
