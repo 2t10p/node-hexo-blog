@@ -7,6 +7,7 @@ tags: [linux]
 someting you need check a rpm file, but do not wanna install rpm,
 
 can use this command extract to a directory.
+<!--more-->
 
     rpm2cpio {whatYouWantExtract}.rpm | cpio -idmv
 

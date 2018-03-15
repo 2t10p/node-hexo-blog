@@ -7,6 +7,7 @@ tags: [english learning]
 iTunes Podcasts provide alot episode,
 i was found one episode that good for training listening skill,
 so share with you.
+<!--more-->
 
 1.open your itunes, and switch to Podcasts tab
 {% asset_img 1.png "click podcasts" %}

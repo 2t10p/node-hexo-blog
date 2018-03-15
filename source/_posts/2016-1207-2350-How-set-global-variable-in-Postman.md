@@ -6,7 +6,7 @@ tags: [postman]
 
 when you useing postman to cook your api,
 some time you need a variable to keep for next api.
-
+<!--more-->
 
 example :
 api create a new data and return id,

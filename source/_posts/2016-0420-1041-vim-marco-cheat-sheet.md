@@ -7,6 +7,7 @@ tags: [vim]
 alway forget vim macro command when i need use it,
 
 so write here for note.
+<!--more-->
 
     qr : start recording to register 'r'
     q : stop recording

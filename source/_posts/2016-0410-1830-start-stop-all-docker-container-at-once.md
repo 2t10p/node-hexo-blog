@@ -6,6 +6,7 @@ tags: [docker]
 
 sometime you wanna start/stop all docker,
 you can try this command.
+<!--more-->
 
     docker start $(docker ps -aq)
     docker stop $(docker ps -aq)

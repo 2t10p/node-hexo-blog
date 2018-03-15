@@ -7,6 +7,7 @@ tags: [linux,tmux]
 at mac terminal,
 when you at tmux,
 cant use scroll up and down to watch scrollback buffer
+<!--more-->
 
 How to fix ?
 add this line to ~/.tmux.conf

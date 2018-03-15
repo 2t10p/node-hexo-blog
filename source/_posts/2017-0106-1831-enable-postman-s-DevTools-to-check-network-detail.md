@@ -4,6 +4,7 @@ date: 2017-01-06 18:34:41
 tags: [postman]
 ---
 * Type `chrome://flags` to your Chrome URL bar
+<!--more-->
 * Search for "packed applications"
 
 {% asset_img 1.png %}

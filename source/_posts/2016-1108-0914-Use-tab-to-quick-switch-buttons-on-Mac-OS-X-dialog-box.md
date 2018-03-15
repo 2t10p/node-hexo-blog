@@ -7,6 +7,7 @@ tags: [osx]
 Sometime you wanna close a file quickly,
 and system will popup a dialog box to confirm what you want,
 that cant use the TAB key to switch.
+<!--more-->
 
 {% asset_img 1.png "confirm dialog" %}
 

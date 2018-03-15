@@ -7,6 +7,7 @@ tags: [osx]
 When use standard USB keyboard at macOS,
 you can't tune on the mac's function key,
 and ctrl with command need swap too.
+<!--more-->
 
 now here have a app can solve this problem
 [github.com/tekezo/Karabiner-Elements](https://github.com/tekezo/Karabiner-Elements)
