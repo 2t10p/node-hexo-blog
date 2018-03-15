@@ -5,13 +5,9 @@ tags: [linux, nginx, dns]
 ---
 
 Let's encrypt was support wildcard certificate now,
-
 trying update my development server to support it, 
-
 in this case server use [certbot](https://github.com/certbot),
-
 here is note for more detail.
-
 <!--more-->
 
 * certbot version need >= 0.22.0
@@ -51,14 +47,15 @@ add value to your dns
 {% asset_img 1.png "image description" %}
 
 
-btw if you not have do this step you will get a error message blow this.
+BTW if you not have do this step you will get a error message blow this.
 ```
 Client with the currently selected authenticator does not support 
 any combination of challenges that will satisfy the CA. 
 You may need to use an authenticator plugin that can do challenges over DNS.
 ```
 
-3. setting up your wildcard domain 
+3. 
+setting up your wildcard domain 
 ```
 # certbot \
 --authenticator standalone \
@@ -67,6 +64,7 @@ You may need to use an authenticator plugin that can do challenges over DNS.
 --post-hook "systemctl start nginx.service" \
 --server https://acme-v02.api.letsencrypt.org/directory
 ```
+
 
 ```
 Saving debug log to /var/log/letsencrypt/letsencrypt.log
