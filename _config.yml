@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: "Wico"
-subtitle: " "
-description: "Someone's web development journey."
-author: "Wico Wen"
+title: "Geek's Web Development Journey"
+subtitle: "All those moments will be lost in time, like tears in rain."
+description: " "
+author: "to@wico.cc"
 language: default
 timezone: "Asia/Taipei"
 
@@ -14,7 +14,8 @@ timezone: "Asia/Taipei"
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: https://wicowen.github.io/
 root: /
-permalink: :year/:month/:day/:title/
+#permalink: :year/:month/:day/:title/
+permalink: :title/
 permalink_defaults:
 
 # Directory
