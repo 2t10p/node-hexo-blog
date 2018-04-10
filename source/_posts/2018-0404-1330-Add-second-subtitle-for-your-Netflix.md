@@ -6,7 +6,7 @@ tags: [language]
 
 Netflix now have "Friends" in list,
 
-i usually watch this to traing my listen skill,
+i usually watch this to training my listen skill,
 
 but sometime, when i need check a not sure word,
 
