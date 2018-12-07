@@ -5,7 +5,7 @@ tags: [linux, nginx, dns]
 ---
 
 Let's encrypt was support wildcard certificate now,
-trying update my development server to support it, 
+trying update my development server to support it,
 in this case server use [certbot](https://github.com/certbot),
 here is note for more detail.
 <!--more-->
@@ -49,13 +49,13 @@ add value to your dns
 
 BTW if you not have do this step you will get a error message blow this.
 ```
-Client with the currently selected authenticator does not support 
-any combination of challenges that will satisfy the CA. 
+Client with the currently selected authenticator does not support
+any combination of challenges that will satisfy the CA.
 You may need to use an authenticator plugin that can do challenges over DNS.
 ```
 
-3. 
-setting up your wildcard domain 
+3.
+setting up your wildcard domain
 ```
 # certbot \
 --authenticator standalone \
@@ -138,6 +138,6 @@ IMPORTANT NOTES:
    Donating to EFF:                    https://eff.org/donate-le
 ```
 
-now you can see your web site was change to wildcard certificate 
+now you can see your web site was change to wildcard certificate
 {% asset_img 2.png "image description" %}
 
