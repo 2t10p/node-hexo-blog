@@ -1,5 +1,5 @@
 ---
-title: how let vscode show hidden characters (tab,space...)
+title: How let vscode show hidden characters ? (tab,space...)
 date: 2018-05-08 23:30:00
 updated: 2018-05-08 23:30:00
 tags: [vscode]
@@ -15,11 +15,11 @@ tags: [vscode]
 
 * go to vscode preferences use "cmd + ," hotkey.
 
-* add this setting to option 
+* add this setting to option
 
 ```
 "editor.renderWhitespace": "all",
 ```
 
-reference : 
+reference :
 [github vscode issue](https://github.com/Microsoft/vscode/issues/18282)
