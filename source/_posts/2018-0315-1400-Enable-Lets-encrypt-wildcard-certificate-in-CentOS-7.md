@@ -141,3 +141,30 @@ IMPORTANT NOTES:
 now you can see your web site was change to wildcard certificate
 {% asset_img 2.png "image description" %}
 
+
+
+
+how to review ?
+```
+
+$ systemctl stop nginx.service
+$ ps -aux | grep nginx
+$ kill {pid}
+
+$ certbot certificates
+
+$ certbot -d *.wico.cc --manual --preferred-challenges dns certonly --pre-hook "systemctl stop nginx.service" --post-hook "systemctl start nginx.service" --server https://acme-v02.api.letsencrypt.org/directory
+
+#update dns
+#wait 2 min
+
+$ certbot renew
+
+$ certbot certificates
+
+
+$ systemctl stop nginx.service
+$ systemctl start nginx.service
+
+
+```
