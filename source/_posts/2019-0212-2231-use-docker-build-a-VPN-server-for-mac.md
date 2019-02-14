@@ -73,8 +73,8 @@ VPN_USER=username
 {% asset_img 1.png "username" %}
 
 ```
-VPN_IPSEC_PSK=someword_pre_shared_key
 VPN_PASSWORD=userpwd
+VPN_IPSEC_PSK=someword_pre_shared_key
 ```
 {% asset_img 2.png "VPN_IPSEC_PSK and VPN_PASSWORD" %}
 
