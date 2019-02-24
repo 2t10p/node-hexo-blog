@@ -1,7 +1,7 @@
 ---
-title: Post title
-date: 2019-02-24- 16:32:17
-updated: 2019-02-24- 16:32:17
+title: How create proxy table on vue cli 3 when need test with API ?
+date: 2019-02-24 16:32:17
+updated: 2019-02-24 16:32:17
 tags: [vue]
 ---
 
@@ -15,9 +15,9 @@ that will redirect all my
 `http://localhost/api` request
 to
 `https://api.somewhere.com/v2/api` this really api server
-&nbsp;
-&nbsp;
 <!--more-->
+&nbsp;
+&nbsp;
 ####1. set your variable into .env file
 .env.development.local
 ```
