@@ -16,7 +16,7 @@ $ brew install streamlink
 
 * download youtube livestream
 ```
-$ streamlink --hls-live-restart -o 'out.m3u8' 'https://www.youtube.com/watch?v=xxxxxxxxxxx' best
+$ streamlink --hls-live-restart -o 'out.m3u8' 'https://www.youtube.com/watch?v=xxxxx' best
 ```
 &nbsp;
 <!--more-->
