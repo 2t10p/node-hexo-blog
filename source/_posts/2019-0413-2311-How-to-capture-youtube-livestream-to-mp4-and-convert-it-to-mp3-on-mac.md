@@ -5,39 +5,45 @@ updated: 2019-04-13 23:11:03
 tags: [osx]
 ---
 
-0. install [homebrew](https://docs.brew.sh/Installation)
+* install [homebrew](https://docs.brew.sh/Installation)
 &nbsp;
-1. use brew install streamlink
+
+* use brew install streamlink
 ```
 $ brew install streamlink
 ```
 &nbsp;
-2. download youtube livestream
+
+* download youtube livestream
 ```
 $ streamlink --hls-live-restart -o 'out.m3u8' 'https://www.youtube.com/watch?v=xxxxxxxxxxx' best
 ```
 &nbsp;
-3. use brew install ffmpeg
+
+* use brew install ffmpeg
 ```
 $ brew install ffmpeg
 ```
 &nbsp;
-4. convert hls(m3u8) to mp4
+
+* convert hls(m3u8) to mp4
 ```
 $ ffmpeg -i in.m3u8 -acodec copy -bsf:a aac_adtstoasc -vcodec copy out.mp4
 ```
 &nbsp;
-5. convert mp4 to mp3
+
+* convert mp4 to mp3
 ```
 $ ffmpeg -i out.mp4 -q:a 0 -map a out.mp3
 ```
 &nbsp;
-6. crop mp3 from 60s to 60+120s
+
+* crop mp3 from 60s to 60+120s
 ```
 $ ffmpeg -ss 60 -t 120 -i in.mp3 -acodec copy out.mp3
 ```
 &nbsp;
-&nbsp;
+
 ref:
 https://streamlink.github.io/cli.html
 https://github.com/ytdl-org/youtube-dl/issues/11618
