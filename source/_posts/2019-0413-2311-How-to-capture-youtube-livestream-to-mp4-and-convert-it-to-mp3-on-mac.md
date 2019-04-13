@@ -1,7 +1,5 @@
 ---
-title: >-
-  2019-0413-2311-How to capture youtube livestream to mp4 (and convert it to
-  mp3) on mac
+title: How to capture youtube livestream to mp4 (and convert it to mp3) on mac
 date: 2019-04-13 23:11:03
 updated: 2019-04-13 23:11:03
 tags: [osx]
