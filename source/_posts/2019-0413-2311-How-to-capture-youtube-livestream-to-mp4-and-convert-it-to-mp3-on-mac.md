@@ -19,6 +19,7 @@ $ brew install streamlink
 $ streamlink --hls-live-restart -o 'out.m3u8' 'https://www.youtube.com/watch?v=xxxxxxxxxxx' best
 ```
 &nbsp;
+<!--more-->
 
 * use brew install ffmpeg
 ```
