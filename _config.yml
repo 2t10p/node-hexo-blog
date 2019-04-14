@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: "Wico's log book"
+title: "wico's logbook"
 subtitle: ""
-description: "all about web develop journey; linux, web server, php, javascript ..."
-author: "Wico Wen"
+description: "all about web develop journey; osx, linux, web server, php, javascript ..."
+author: "wico wen"
 language: default
 timezone: "Asia/Taipei"
 
