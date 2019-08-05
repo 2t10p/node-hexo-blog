@@ -1,5 +1,5 @@
 ---
-title: tmux scroll up at mac terminal
+title: Tmux scroll up at mac terminal
 date: 2016-04-23 15:50:47
 tags: [linux,tmux]
 ---

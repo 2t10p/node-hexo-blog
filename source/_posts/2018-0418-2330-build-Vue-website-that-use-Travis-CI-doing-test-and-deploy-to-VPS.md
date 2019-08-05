@@ -1,5 +1,5 @@
 ---
-title: build Vue website that use Travis CI doing test and deploy to VPS
+title: Build Vue website that use Travis CI doing test and deploy to VPS
 date: 2018-04-18 23:30:00
 updated: 2018-04-20 11:16:00
 tags: [vue,nginx,centos,continuous-integration,continuous-delivery]
@@ -7,12 +7,12 @@ tags: [vue,nginx,centos,continuous-integration,continuous-delivery]
 
 i build a side project use vue cli
 
-that can easily create a basic frontend web site 
+that can easily create a basic frontend web site
 with alot morden tools (js lint, unit test, e2e test ... etc)
 
-here is some note for trying integration whole project 
+here is some note for trying integration whole project
 
-the workflow is 
+the workflow is
 
 1. send a commit to github repo
 
@@ -20,7 +20,7 @@ the workflow is
 
 3. after task done without error
 
-4. run deploy shell, 
+4. run deploy shell,
 
 5. login to vps server use encrypted ssh key
 

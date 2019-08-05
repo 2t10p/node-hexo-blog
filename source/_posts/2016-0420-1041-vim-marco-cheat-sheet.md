@@ -1,5 +1,5 @@
 ---
-title: vim marco cheat sheet
+title: Vim marco cheat sheet
 date: 2016-04-20 22:38:42
 tags: [vim]
 ---

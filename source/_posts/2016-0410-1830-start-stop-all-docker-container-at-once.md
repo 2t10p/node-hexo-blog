@@ -1,5 +1,5 @@
 ---
-title: start/stop all docker container at once
+title: Start/stop all docker container at once
 date: 2016-04-10 01:06:56
 tags: [docker]
 ---

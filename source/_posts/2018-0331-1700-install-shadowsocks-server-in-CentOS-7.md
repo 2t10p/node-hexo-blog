@@ -1,5 +1,5 @@
 ---
-title: install shadowsocks server in CentOS 7
+title: Install shadowsocks server in CentOS 7
 date: 2018-03-31 17:00:00
 tags: [linux,centos]
 ---
