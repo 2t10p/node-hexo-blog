@@ -5,13 +5,12 @@ updated: 2020-11-13 23:31:12
 tags: [osx]
 ---
 
-Apple release Big update macOS Big Sur 11.0 today !
+Apple release Big update `macOS Big Sur (11.0)` today.
+Let's make a make a USB bootable install loader for backup.
 
-let's make a make a USB bootable install loader for backup.
+---
 
-
-## Here is step
-
+### Step :
 
 #### 1. Download macOS Big Sur 11.0 from `App Stroe` or `Systen Update`
 
