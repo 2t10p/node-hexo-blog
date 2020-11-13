@@ -10,28 +10,27 @@ Apple release Big update macOS Big Sur 11.0 today !
 let's make a make a USB bootable install loader for backup.
 
 
-###Here is step
+### Here is step
 
 
-#####1. Download macOS Big Sur 11.0 from `App Stroe` or `Systen Update`
+##### 1. Download macOS Big Sur 11.0 from `App Stroe` or `Systen Update`
 
 {% asset_img 1.png "download it" %}
 
 <!--more-->
 {% asset_img 2.png "download it" %}
 
-#####1. When download was done and show this window, `DO NOT` click `continue`.
+##### 2. When download was done and show this window, `DO NOT` click `continue`.
 {% asset_img 3.png "install window" %}
 
-#####2. Open finder, and go "applications" directory on your `finder`,
-   now you can see the file "Install macOS Catalina.app".
+##### 3. Open finder, and go "applications" directory on your `finder`,now you can see the file "Install macOS Catalina.app".
 {% asset_img 4.png "find OS insatll app from applications" %}
 
-#####3. Copy it to other directory
+##### 4. Copy it to other directory
 
-#####4. Plug USB driver, and format it
+##### 5. Plug USB driver, and format it
 
-#####5. change this command, replace `{xxxx}` to your system path.
+##### 6. change this command, replace `{xxxx}` to your system path.
 ```
 sudo /{File_Path}/Install\ macOS\ Big\ Sur.app/Contents/Resources/createinstallmedia \
 --volume /Volumes/{USB_Name}/ \
@@ -39,10 +38,10 @@ sudo /{File_Path}/Install\ macOS\ Big\ Sur.app/Contents/Resources/createinstallm
 --downloadassets
 ```
 
-#####6. Open terminal and run that command (Be sure the `path` is correct)
+#####7. Open terminal and run that command (Be sure the `path` is correct)
 
 
-#####7. then system will start make usb bootable install leader
+#####8. then system will start make usb bootable install leader
 {% asset_img 5.png "process screen" %}
 
-#####8. now you can boot with this usb and hold `Cmd(⌘) + R` to get into `install OS mode` or `recover mode`.
+#####9. now you can boot with this usb and hold `Cmd(⌘) + R` to get into `install OS mode` or `recover mode`.
