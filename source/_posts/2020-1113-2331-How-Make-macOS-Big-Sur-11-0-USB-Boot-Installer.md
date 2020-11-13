@@ -29,7 +29,7 @@ Let's make a make a USB bootable install loader for backup.
 
 #### 5. Plug USB driver and format it
 
-#### 6. Change command, replace `{xxxx}` to your path and copy it.
+#### 6. Change command, replace `{xxxx}` to your path and copy it
 
 ```
 sudo /{File_Path}/Install\ macOS\ Big\ Sur.app/Contents/Resources/createinstallmedia \
@@ -38,10 +38,7 @@ sudo /{File_Path}/Install\ macOS\ Big\ Sur.app/Contents/Resources/createinstallm
 --downloadassets
 ```
 
-#### 7. Open terminal and run command
-
-
-#### 8. then system will start make usb bootable install leader
+#### 7. Open terminal and run command, system will start make bootable usb
 {% asset_img 5.png "process screen" %}
 
-#### 9. now you can boot with this usb and hold `Cmd(⌘) + R` to get into `install OS mode` or `recover mode`.
+#### 9. now you can boot with this usb and hold `Cmd(⌘) + R` to get into `install OS mode` or `recover mode`
